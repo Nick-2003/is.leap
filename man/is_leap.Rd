@@ -7,11 +7,17 @@
 is_leap(num)
 }
 \arguments{
-\item{num}{a number}
+\item{num}{a number or string that contains a number}
 }
 \value{
 TRUE if num is a leap year by given conditions, FALSE otherwise
 }
 \description{
 Is this a leap year?
+}
+\examples{
+is_leap(2000) # returns TRUE
+is_leap(1800) # returns FALSE
+is_leap("The year is 2000 CE") # returns TRUE
+
 }
