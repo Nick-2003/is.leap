@@ -1,0 +1,8 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-04-03T20:35Z
+urls:
+  reference: https://nick-2003.github.io/is.leap/reference
+  article: https://nick-2003.github.io/is.leap/articles
