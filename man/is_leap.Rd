@@ -19,5 +19,8 @@ Is this a leap year?
 is_leap(2000) # returns TRUE
 is_leap(1800) # returns FALSE
 is_leap("The year is 2000 CE") # returns TRUE
+\dontrun{
+  is_leap(mtcars)
+}
 
 }
